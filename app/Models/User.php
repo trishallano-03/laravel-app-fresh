@@ -31,13 +31,8 @@ class User extends Authenticatable
     }
 
     protected $fillable = [
-        'first_name',
-        'last_name',
-        'middle_name',
-        'nickname',
-        'age',
-        'address',
-        'contact_number',
-        'email',
+        'title','author', 'decsiption', 'genre',
+        'published_year', 'isbn', 'pages', 'language',
+        'publisher', 'price', 'cover_image', 'is_available'
     ];
 }

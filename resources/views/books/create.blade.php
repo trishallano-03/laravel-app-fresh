@@ -1,23 +1,6 @@
 <x-layout>
-    <style>
-        @keyframes gradientFlow {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        .animate-mesh {
-            background: linear-gradient(-45deg, #1cb845, #07cc77, #d3bc0b, #020617);
-            background-size: 400% 400%;
-            animation: gradientFlow 10s ease infinite;
-        }
-        .glass-card {
-            background: rgba(15, 23, 42, 0.8);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-    </style>
 
-    <div class="min-h-screen animate-mesh py-12 px-4 flex items-center justify-center">
+<div class="min-h-screen animate-mesh py-12 px-4 flex items-center justify-center">
         <div class="max-w-3xl mx-auto w-full">
             
             <div class="glass-card rounded-3xl shadow-2xl overflow-hidden">
@@ -128,4 +111,5 @@
             </div>
         </div>
     </div>
+
 </x-layout>
